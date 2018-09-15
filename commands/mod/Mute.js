@@ -21,7 +21,7 @@ class MuteCommand extends commando.Command
             message.channel.send("Sorry maar deze persoon kon ik niet vinden.")
             return;
         }
-        if(!message.member.hasPermission("VIEW_AUDIT_LOG"))
+        if(!message.member.hasPermission("MANAGE_MESSAGES"))
         {
             message.channel.send("Je hebt geen bevoegdheden hiervoor!");
             return;
