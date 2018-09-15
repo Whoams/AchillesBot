@@ -18,7 +18,7 @@ class NewEventCommand extends commando.Command
         
         currentEventMembers = [];
         
-        if(!message.member.hasPermission("VIEW_AUDIT_LOG"))
+        if(!message.member.hasPermission("MANAGE_MESSAGES"))
         {
             message.channel.send("Je hebt geen bevoegdheden hiervoor!");
             return;
