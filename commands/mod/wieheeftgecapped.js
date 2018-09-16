@@ -20,7 +20,7 @@ class WieHeeftGecappedCommand extends commando.Command
             .setDescription(hasCapped)
             .setColor('ff0000')
             
-        message.user.send(Gecapped);
+        message.channel.send(Gecapped);
     }
 }
 
