@@ -12,8 +12,6 @@ bot.registry.registerGroup('fun', 'Fun');
 bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname + "/commands");
 
-global.hasCapped = [];
-global.currentEventMembers = [];
 global.server = {};
 
 bot.on('message', function(message){
