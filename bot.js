@@ -26,7 +26,7 @@ bot.on('message', function(message){
 
 bot.on('ready',function(){
     console.log("I'm ready!")
-    bot.user.setActivity("with Yao", {type: 'STREAMING'})
+    bot.user.setActivity("with Whoams", {type: 'STREAMING'})
 });
 
 bot.login(process.env.BOT_TOKEN);
